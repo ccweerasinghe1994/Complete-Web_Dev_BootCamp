@@ -69,3 +69,56 @@ const CardList = () => {
 
 export default CardList;
 ```
+## Adding Search feild 
+```jsx
+import React from "react";
+
+const SearchBox = ({searchChange, searchFeild}) => {
+    return (
+        <div className='pa3'>
+            <input onChange={searchChange} className='pa3 ba b--green bg-lightest-blue' type='serach'
+                   placeholder='search robots'/>
+        </div>
+    )
+}
+
+export default SearchBox;
+```
+convert the App to A Class Component 
+
+add state
+```jsx
+
+this.state={
+            robots:robots,
+            searchFeild:""
+        }
+```
+
+create new method for onsearchChange
+```jsx
+
+    onSearchChange=(event)=>{
+        this.setState({
+            searchFeild:event.target.value
+        })
+
+    }
+```
+
+add filter 
+```jsx
+ render() {
+        const filterdRobots = this.state.robots.filter(robot=>robot.name.toLowerCase().includes(
+            this.state.searchFeild.toLowerCase()
+        ))
+        return (
+            <div className='tc' >
+                <h1 className='tc'>Robo Friends</h1>
+                <SearchBox searchFeild={this.state.searchFeild} searchChange={this.onSearchChange}/>
+                <CardList robots={filterdRobots}/>
+            </div>
+        )
+    }
+
+```

@@ -5,11 +5,11 @@ import * as serviceWorker from './serviceWorker';
 //css
 import 'tachyons';
 //componenta
-import CardList from './CardList';
+import App from './App'
 
 ReactDOM.render(
     <React.StrictMode>
-       <CardList/>
+      <App/>
     </React.StrictMode>,
     document.getElementById('root')
 );
