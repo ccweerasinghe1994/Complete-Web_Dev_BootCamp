@@ -5,40 +5,26 @@ import Scroll from "../components/scroll";
 import ErrorBoundary from "../components/errorBoundary";
 
 import {connect} from 'react-redux';
-import {setSearchField} from '../redux/actions.js'
+import {setSearchField,requestRobots} from '../redux/actions.js'
+
 
 
 class App extends Component {
-    constructor() {
-        super();
-        this.state = {
-            robots: []
-        };
-    }
+
 
     componentDidMount() {
-        fetch("http://jsonplaceholder.typicode.com/users")
-            .then((response) => response.json())
-            .then((users) =>
-                this.setState({
-                    robots: users,
-                })
-            );
+        this.props.onRequestRobots()
     }
 
-    onSearchChange = (event) => {
-        this.setState({
-            searchFelid: event.target.value,
-        });
-    };
+
 
     render() {
-        const {robots} = this.state;
-        const { searchFelid,onSearchChange} = this.props;
+
+        const { searchFelid,onSearchChange,robots,isPending,error} = this.props;
         const filteredRobots = robots.filter((robot) =>
             robot.name.toLowerCase().includes(searchFelid.toLowerCase())
         );
-        return !robots.length ? (
+        return isPending ? (
             <div className='tc'>
                 <h1
                     style={{
@@ -74,9 +60,13 @@ class App extends Component {
     }
 }
 const mapStateToProps = (state)=>({
-    searchFelid: state.searchFelid
+    searchFelid: state.searchFieldReducer.searchFelid,
+    robots:state.robotsReducer.robots,
+    isPending:state.robotsReducer.isPending,
+    error:state.robotsReducer.error,
 })
 const mapDispatchToProps = (dispatch)=>({
-    onSearchChange:(event)=>dispatch(setSearchField(event.target.value))
+    onSearchChange:(event)=>dispatch(setSearchField(event.target.value)),
+    onRequestRobots:()=>dispatch(requestRobots())
 })
 export default connect(mapStateToProps,mapDispatchToProps)(App);
