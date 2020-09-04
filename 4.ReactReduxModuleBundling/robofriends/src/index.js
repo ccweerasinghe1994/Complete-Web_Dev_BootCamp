@@ -1,3 +1,4 @@
+import './wdyr';
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -14,7 +15,7 @@ import thunk from "redux-thunk";
 
 const rootReducer = combineReducers({searchFieldReducer,robotsReducer})
 const logger = createLogger();
-const store = createStore(rootReducer,applyMiddleware(thunk,logger));
+const store = createStore(rootReducer,applyMiddleware(thunk ));
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store} >

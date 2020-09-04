@@ -6,6 +6,7 @@ import ErrorBoundary from "../components/errorBoundary";
 
 import {connect} from 'react-redux';
 import {setSearchField, requestRobots} from '../redux/actions.js'
+import Header from "../components/Header";
 
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
 
     render() {
 
-        const {searchFelid, onSearchChange, robots, isPending, error} = this.props;
+        const {searchFelid, onSearchChange, robots, isPending} = this.props;
         const filteredRobots = robots.filter((robot) =>
             robot.name.toLowerCase().includes(searchFelid.toLowerCase())
         );
@@ -30,9 +31,7 @@ class App extends Component {
             </div>
         ) : (
             <div className='tc'>
-                <h1 style={{fontFamily: "Monoton", color: "white",}} className='tc'>
-                    Robot Friends
-                </h1>
+                <Header/>
                 <SearchBox
                     searchFelid={searchFelid}
                     searchChange={onSearchChange}

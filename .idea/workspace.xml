@@ -25,9 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d1dc65-9843-4c80-8c1f-6b91a9f64114" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/components/CounterButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/components/Header.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/redux/actions.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/redux/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/wdyr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/public/index.html" afterDir="false" />
@@ -38,6 +42,8 @@
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/SearchBox.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.performace-part-2/code-splitting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/5.performace-part-2/code-splitting/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.performace-part-2/code-splitting/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/5.performace-part-2/code-splitting/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends" />
   </component>
   <component name="ProjectId" id="1h1omiIA1SP853Cl5QHexncys69" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -117,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599188120038</updated>
-      <workItem from="1599188121181" duration="5881000" />
+      <workItem from="1599188121181" duration="9665000" />
     </task>
     <servers />
   </component>
@@ -139,21 +145,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599190458854">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599202334624">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599190458854" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599190458853">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599202334624" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599202334623">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599190458853" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599190458853">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599202334623" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599202334623">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599190458853" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599190458853">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599202334623" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599202334623">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599190458853" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599202334623" />
   </component>
 </project>
