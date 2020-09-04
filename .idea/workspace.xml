@@ -28,8 +28,6 @@
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/redux/actions.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/redux/reducer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.performace-part-2/code-splitting/src/components/AsyncComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/public/index.html" afterDir="false" />
@@ -40,7 +38,6 @@
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/SearchBox.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.performace-part-2/code-splitting/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/5.performace-part-2/code-splitting/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,27 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start (1)">
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/4.ReactReduxModuleBundling/webpack/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/5.performace-part-2/code-splitting/package.json" />
       <command value="run" />
@@ -86,6 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -98,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599188120038</updated>
-      <workItem from="1599188121181" duration="5222000" />
+      <workItem from="1599188121181" duration="5881000" />
     </task>
     <servers />
   </component>
