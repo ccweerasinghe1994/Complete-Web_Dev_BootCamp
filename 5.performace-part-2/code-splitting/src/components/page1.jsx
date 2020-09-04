@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../logo.svg';
 
-export const Page1 = ({onRouteChange})=>{
+ const Page1 = ({onRouteChange})=>{
     return(
         <div className='App'>
             <header className="App-header">
@@ -24,3 +24,5 @@ export const Page1 = ({onRouteChange})=>{
         </div>
     )
 }
+
+export default Page1;

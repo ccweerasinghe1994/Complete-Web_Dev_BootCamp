@@ -1,11 +1,12 @@
 import React from "react";
 import logo from '../logo.svg';
 
-export const Page2 = ({onRouteChange})=>{
-    return(
+
+const Page2 = ({onRouteChange}) => {
+    return (
         <div className='App'>
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo"/>
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
                 </p>
@@ -18,9 +19,11 @@ export const Page2 = ({onRouteChange})=>{
                     Learn React
                 </a>
             </header>
-            <button className='btn' onClick={()=>onRouteChange('page1')}>page1</button>
+            <button className='btn' onClick={() => onRouteChange('page1')}>page1</button>
             <button className='btn disabled'>page2</button>
-            <button className='btn' onClick={()=>onRouteChange('page3')}>page3</button>
+            <button className='btn' onClick={() => onRouteChange('page3')}>page3</button>
         </div>
     )
 }
+
+export default Page2;
