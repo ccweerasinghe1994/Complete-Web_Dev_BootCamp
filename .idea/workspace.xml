@@ -31,7 +31,6 @@
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/redux/reducer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/wdyr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/public/index.html" afterDir="false" />
@@ -42,8 +41,6 @@
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/SearchBox.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.ReactReduxModuleBundling/robofriends/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.performace-part-2/code-splitting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/5.performace-part-2/code-splitting/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.performace-part-2/code-splitting/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/5.performace-part-2/code-splitting/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React-developer course 2020/e-commerce-site" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,6 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599188120038</updated>
       <workItem from="1599188121181" duration="9665000" />
+      <workItem from="1599210798771" duration="26000" />
     </task>
     <servers />
   </component>
@@ -140,11 +138,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1599210822109">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160/-1366.169.1366.728@0.0.1920.1160" timestamp="1599210822109" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599202334624">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
