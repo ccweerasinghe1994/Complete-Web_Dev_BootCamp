@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import CounterButton from "./CounterButton";
+
 
 
 class Header extends Component{
@@ -15,7 +15,7 @@ class Header extends Component{
                 <h1 style={{fontFamily: "Monoton", color: "white",}} className='tc'>
                     Robot Friends
                 </h1>
-                <CounterButton color={'red'} />
+               
             </div>
 
         )
